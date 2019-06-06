@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:padding="10dp">
+   <!-- <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:indeterminateDrawable="@drawable/progress_bar" />
+-->
+	<pl.droidsonroids.gif.GifTextView
+		android:id="@+id/progressBar1"
+		android:layout_width="60dp"
+		android:layout_height="60dp"
+		android:background="@drawable/loader"
+		android:layout_centerHorizontal="true"
+		/>
+
+
+	<!--<ImageView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:src="@drawable/pleasewait"
+		android:layout_marginTop="10dp"
+		android:layout_below="@+id/progressBar1"
+		android:layout_centerHorizontal="true"/>-->
+<!--
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+	    android:textColor="@color/white"
+	    android:gravity="center"
+	    android:layout_below="@+id/progressBar1"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="5dp"
+	    android:visibility="gone"
+         />
+-->
+
+    
+<!--	 <TextView
+	    android:id="@+id/tv_wait"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="please wait ..."
+	    android:textSize="18dp"
+	    android:textColor="@color/white"
+	    android:gravity="center"
+	    android:layout_below="@+id/progressBar1"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="5dp"
+		 />-->
+
+</RelativeLayout>

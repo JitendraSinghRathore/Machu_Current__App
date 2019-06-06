@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+
+    <group
+        android:id="@+id/homegroup"
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/home"
+            android:title="Book Your Tikets" />
+    </group>
+
+    <group
+        android:id="@+id/url"
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/urla"
+            android:title="Types of Tickets" />
+    </group>
+
+    <group
+        android:id="@+id/share"
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_share"
+            android:title="Share" />
+
+    </group>
+
+    <group
+        android:id="@+id/send"
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_send"
+            android:title="Contact Us" />
+
+    </group>
+
+    <group
+        android:id="@+id/senda"
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_senda"
+            android:visible="true"
+            android:title="" />
+
+
+        <item
+        android:id="@+id/nav_se"
+
+        android:visible="false"
+        android:title="" />
+
+    <item
+        android:id="@+id/nav_senf"
+        android:visible="false"
+        android:title="" />
+
+
+
+
+
+
+        <item
+            android:id="@+id/nav_sen"
+            android:visible="true"
+            android:title="" />
+
+
+
+
+    <!--<item
+        android:id="@+id/nav_sendeaa"
+        android:showAsAction="ifRoom"
+        android:title="                         Version 1.0"
+        tools:ignore="AppCompatResource" />
+
+        <item
+            android:id="@+id/nav_sendea"
+            android:showAsAction="ifRoom"
+            android:title="ⒸPeruways 2018 All rights Reserved"
+            tools:ignore="AppCompatResource" />-->
+
+
+
+    </group>
+
+
+</menu>

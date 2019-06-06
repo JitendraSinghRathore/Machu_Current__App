@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ContactFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/machu"
+        android:scaleType="fitXY"
+        android:layout_height="400dp" />
+
+
+    <Button
+        android:id="@+id/query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorAccent"
+        android:text="ask for any question "
+        android:textAllCaps="false"
+        android:textColor="#FFF" />
+
+    <Button
+
+        android:id="@+id/gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Contact us by Gmail"
+        android:textAllCaps="false"
+        android:textColor="#FFF" />
+
+
+</LinearLayout>

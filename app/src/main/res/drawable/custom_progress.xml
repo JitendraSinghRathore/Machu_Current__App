@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/secondaryProgress" tools:ignore="StateListReachable">
+        <clip>
+            <shape>
+                <corners android:radius="3dp"/>
+
+                <solid android:color="#00be46"/>
+
+
+            </shape>
+        </clip>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="3dp"/>
+
+                <solid android:color="#00be46"/>
+
+
+            </shape>
+        </clip>
+    </item>
+</selector>
